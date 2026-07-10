@@ -1,253 +1,371 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="안가은 포트폴리오 - Data Analyst, CRM Marketing, AI Automation" />
-    <meta name="author" content="안가은" />
-    <meta name="keywords" content="안가은, 포트폴리오, 데이터 분석, CRM, 추천 시스템, AI 자동화" />
-    <meta property="og:title" content="안가은 Portfolio" />
-    <meta property="og:description" content="데이터를 분석하고, AI로 자동화하며, 고객 경험을 개선합니다." />
-    <meta property="og:type" content="website" />
-    <title>안가은 Portfolio</title>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header class="site-header" id="siteHeader">
-      <a class="brand" href="#home" aria-label="홈으로 이동">AHN</a>
-      <nav class="nav" aria-label="주요 메뉴">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="mobile-menu-button" type="button" aria-label="메뉴 열기" aria-expanded="false">Menu</button>
-    </header>
 
-    <main>
-      <section class="hero section" id="home" aria-label="홈">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">안가은</p>
-          <div class="role-list" aria-label="직무 키워드">
-            <span>Data Analyst</span>
-            <span>CRM Marketing</span>
-            <span>AI Automation</span>
-          </div>
-          <h1>데이터를 분석하고,<br />AI로 자동화하며,<br />고객 경험을 개선합니다.</h1>
-          <p class="hero-description">Python, SQL, AI를 활용하여 데이터 기반의 문제를 해결하고 추천 시스템과 CRM 자동화를 만드는 것을 좋아합니다.</p>
-          <div class="button-row">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button secondary" href="https://github.com/vixxbigs-dotcom?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </div>
-        <div class="hero-visual reveal" aria-label="프로필 이미지 영역">
-          <div class="profile-card">
-            <img src="./assets/avatar.png" alt="안가은 프로필 이미지" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
-            <div class="avatar-placeholder" aria-hidden="true">AG</div>
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="안가은 포트폴리오 - Data Analyst, CRM Marketing, AI Automation" />
+  <meta name="author" content="안가은" />
+  <meta name="keywords" content="안가은, 포트폴리오, 데이터 분석, CRM, 추천 시스템, AI 자동화" />
+  <meta property="og:title" content="안가은 Portfolio" />
+  <meta property="og:description" content="데이터를 기반으로 고객이 더 쉽게 찾고, 더 쉽게 선택하도록 돕습니다." />
+  <meta property="og:type" content="website" />
+  <title>안가은 Portfolio</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-      <section class="section projects-first" id="projects" aria-labelledby="projectsTitle">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Featured Work</p>
-          <h2 id="projectsTitle">Projects</h2>
-        </div>
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="홈으로 이동">AHN</a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="mobile-menu-button" type="button" aria-label="메뉴 열기" aria-expanded="false">Menu</button>
+  </header>
 
-        <article class="project-showcase reveal">
-          <div class="project-gallery" data-gallery aria-label="YouTube Growth 이미지 갤러리">
-            <div class="gallery-track">
-              <a class="project-media gallery-slide is-active" href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank" rel="noreferrer" aria-label="YouTube Growth 채널 보기">
-                <img src="./assets/images/youtube-growth.png" alt="YouTube Growth 채널 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-                <div class="project-placeholder"><span>YouTube Growth</span><small>youtube-growth.png</small></div>
-              </a>
-              <a class="project-media gallery-slide" href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank" rel="noreferrer" aria-label="YouTube Analytics 성과 보기">
-                <img src="./assets/images/youtube-analytics.png" alt="YouTube Analytics 성과 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-                <div class="project-placeholder"><span>Analytics / CTR</span><small>youtube-analytics.png</small></div>
-              </a>
-              <a class="project-media gallery-slide" href="https://blog.naver.com/bbyoiworld" target="_blank" rel="noreferrer" aria-label="도안 콘텐츠 보기">
-                <img src="./assets/images/youtube-pattern.png" alt="도안 콘텐츠 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-                <div class="project-placeholder"><span>Pattern / Design</span><small>youtube-pattern.png</small></div>
-              </a>
+  <main>
+    <section class="hero section" id="home" aria-label="홈">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">안가은</p>
+        <div class="role-list" aria-label="직무 키워드">
+          <span>Data Analyst</span>
+          <span>CRM Marketing</span>
+          <span>AI Automation</span>
+        </div>
+        <h1 class="hero-question">
+          데이터를 기반으로<br>
+          고객이 더 쉽게 찾고<br>
+          더 쉽게 선택하도록 돕습니다.
+        </h1>
+        <p class="hero-description">Python, SQL, AI를 활용해 고객 행동 데이터를 분석하고 추천 시스템과 자동화 서비스를 개발합니다.</p>
+        <div class="button-row">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="https://github.com/vixxbigs-dotcom?tab=repositories" target="_blank"
+            rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="프로필 이미지 영역">
+        <div class="profile-card">
+          <img src="./assets/avatar.png" alt="안가은 프로필 이미지"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+          <div class="avatar-placeholder" aria-hidden="true">AG</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-first" id="projects" aria-labelledby="projectsTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Featured Work</p>
+        <h2 id="projectsTitle">Projects</h2>
+      </div>
+
+      <article class="project-showcase reveal">
+        <div class="project-gallery" data-gallery aria-label="YouTube Growth 이미지 갤러리">
+          <div class="gallery-track">
+            <a class="project-media gallery-slide is-active" href="https://www.youtube.com/@BByoiCrafts/posts"
+              target="_blank" rel="noreferrer" aria-label="YouTube Growth 채널 보기">
+              <img src="./assets/images/youtube-growth.png" alt="YouTube Growth 채널 화면"
+                onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+              <div class="project-placeholder"><span>YouTube Growth</span><small>youtube-growth.png</small></div>
+            </a>
+            <a class="project-media gallery-slide" href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank"
+              rel="noreferrer" aria-label="YouTube Analytics 성과 보기">
+              <img src="./assets/images/youtube-analytics.png" alt="YouTube Analytics 성과 화면"
+                onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+              <div class="project-placeholder"><span>Analytics / CTR</span><small>youtube-analytics.png</small></div>
+            </a>
+            <a class="project-media gallery-slide" href="https://blog.naver.com/bbyoiworld" target="_blank"
+              rel="noreferrer" aria-label="도안 콘텐츠 보기">
+              <img src="./assets/images/youtube-pattern.png" alt="도안 콘텐츠 화면"
+                onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+              <div class="project-placeholder"><span>Pattern / Design</span><small>youtube-pattern.png</small></div>
+            </a>
+          </div>
+          <button class="gallery-button prev" type="button" aria-label="이전 이미지">‹</button>
+          <button class="gallery-button next" type="button" aria-label="다음 이미지">›</button>
+          <div class="gallery-dots" aria-label="이미지 선택"></div>
+        </div>
+        <div class="project-content">
+          <p class="project-index">Project 01</p>
+          <h3>YouTube Growth</h3>
+          <p class="project-subtitle">데이터 기반 콘텐츠 성장 프로젝트</p>
+          <p class="project-description">Google Trends와 YouTube Analytics를 활용해 콘텐츠를 기획하고 사용자 반응을 분석했습니다. 그 결과 5,800만
+            조회수와 누적 11만 구독자를 달성했습니다.</p>
+          <dl class="metrics-grid">
+            <div>
+              <dt>5,800만+</dt>
+              <dd>누적 조회수</dd>
             </div>
-            <button class="gallery-button prev" type="button" aria-label="이전 이미지">‹</button>
-            <button class="gallery-button next" type="button" aria-label="다음 이미지">›</button>
-            <div class="gallery-dots" aria-label="이미지 선택"></div>
-          </div>
-          <div class="project-content">
-            <p class="project-index">Project 01</p>
-            <h3>YouTube Growth</h3>
-            <p class="project-subtitle">데이터 기반 콘텐츠 성장 프로젝트</p>
-            <p class="project-description">Google Trends와 YouTube Analytics를 기반으로 콘텐츠를 기획하고 사용자 반응 데이터를 분석하여 채널을 성장시켰습니다.</p>
-            <dl class="metrics-grid">
-              <div><dt>5,800만+</dt><dd>누적 조회수</dd></div>
-              <div><dt>1.2억+</dt><dd>노출</dd></div>
-              <div><dt>15.7%</dt><dd>CTR</dd></div>
-              <div><dt>11만+</dt><dd>구독자</dd></div>
-              <div><dt>300+</dt><dd>스마트스토어 판매</dd></div>
-            </dl>
-            <div class="tag-list">
-              <span>Google Trends</span><span>YouTube Analytics</span><span>SEO</span><span>CTR Analysis</span><span>Thumbnail Design</span><span>Content Optimization</span>
+            <div>
+              <dt>1.2억+</dt>
+              <dd>노출</dd>
             </div>
-            <div class="button-row compact">
-              <a class="button secondary" href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank" rel="noreferrer">YouTube</a>
-              <a class="button primary" href="https://blog.naver.com/bbyoiworld" target="_blank" rel="noreferrer">도안</a>
+            <div>
+              <dt>15.7%</dt>
+              <dd>CTR</dd>
             </div>
-          </div>
-        </article>
-
-        <article class="project-showcase reveal">
-          <a class="project-media" href="https://github.com/vixxbigs-dotcom/MUSINSA_WEB" target="_blank" rel="noreferrer" aria-label="MUSINSA AI Recommendation 데모 보기">
-            <img src="./assets/images/musinsa-recommendation.png" alt="MUSINSA AI Recommendation 서비스 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-            <div class="project-placeholder"><span>MUSINSA Recommendation</span><small>musinsa-recommendation.png</small></div>
-          </a>
-          <div class="project-content">
-            <p class="project-index">Project 02</p>
-            <h3>MUSINSA AI Recommendation</h3>
-            <p class="project-subtitle">AI 기반 패션 추천 시스템</p>
-            <p class="project-description">약 21만 건의 상품 데이터를 분석하여 텍스트, 이미지, 브랜드, 카테고리 기반 추천 시스템을 개발했습니다. 현재 Version2를 개발 중이며 여성 추천 서비스와 스타일 기반 추천으로 확장하고 있습니다.</p>
-            <dl class="metrics-grid">
-              <div><dt>21만 건</dt><dd>상품 데이터</dd></div>
-              <div><dt>3천 건+</dt><dd>Snap 데이터</dd></div>
-              <div><dt>개선</dt><dd>추천 정확도</dd></div>
-            </dl>
-            <div class="tag-list"><span>Python</span><span>React</span><span>Flask</span><span>MySQL</span><span>SBERT</span><span>CLIP</span><span>Gemini API</span></div>
-            <div class="button-row compact">
-              <a class="button secondary" href="https://github.com/vixxbigs-dotcom/MUSINSA_WEB" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="button primary" href="https://musinsaweb-d4f3qfughwu9rpfnxbpteg.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
-              <a class="button secondary" href="https://app.notion.com/p/370c921fb1e180cc9001f92dcda471b5" target="_blank" rel="noreferrer">Notion</a>
+            <div>
+              <dt>11만+</dt>
+              <dd>누적 구독자</dd>
             </div>
-          </div>
-        </article>
-
-        <article class="project-showcase reveal">
-          <a class="project-media" href="https://newsletter-automation-knemxylqpewvmydxrzzfcl.streamlit.app/" target="_blank" rel="noreferrer" aria-label="HRD Radar 관리자 페이지 보기">
-            <img src="./assets/images/hrd-radar.png" alt="HRD Radar 프로젝트 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-            <div class="project-placeholder"><span>HRD Radar</span><small>hrd-radar.png</small></div>
-          </a>
-          <div class="project-content">
-            <p class="project-index">Project 03</p>
-            <h3>HRD Radar</h3>
-            <p class="project-subtitle">AI 뉴스레터 자동화 시스템</p>
-            <p class="project-description">뉴스 수집부터 AI 기사 선별, HTML 생성, 메일 생성, GitHub Pages 배포까지 전체 프로세스를 자동화했습니다. 관리자 페이지에서 뉴스 DB 관리, 미리보기, 수신자 리스트 생성, 메일 발송 흐름을 확인할 수 있습니다.</p>
-            <div class="tag-list"><span>Python</span><span>Streamlit</span><span>GitHub Actions</span><span>OpenAI</span><span>HTML</span><span>CSS</span></div>
-            <div class="button-row compact">
-              <a class="button secondary" href="https://vixxbigs-dotcom.github.io/newsletter-automation/" target="_blank" rel="noreferrer">GitHub Pages</a>
-              <a class="button primary" href="https://newsletter-automation-knemxylqpewvmydxrzzfcl.streamlit.app/" target="_blank" rel="noreferrer">Admin</a>
-              <a class="button secondary" href="https://vixxbigs-dotcom.github.io/newsletter-automation/" target="_blank" rel="noreferrer">News Site</a>
+            <div>
+              <dt>300+</dt>
+              <dd>스마트스토어 판매</dd>
             </div>
+          </dl>
+          <div class="tag-list">
+            <span>Google Trends</span><span>YouTube Analytics</span><span>SEO</span><span>CTR
+              Analysis</span><span>Thumbnail Design</span><span>Content Optimization</span>
           </div>
-        </article>
+          <div class="button-row compact">
+            <a class="button secondary" href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank"
+              rel="noreferrer">YouTube</a>
+            <a class="button primary" href="https://blog.naver.com/bbyoiworld" target="_blank" rel="noreferrer">도안</a>
+          </div>
+        </div>
+      </article>
 
-        <article class="project-showcase reveal">
-          <a class="project-media" href="https://education-guide-generator-hqc7rk2uxappau4bettiix8.streamlit.app/" target="_blank" rel="noreferrer" aria-label="Education Guide Generator 데모 보기">
-            <img src="./assets/images/education-guide-generator.png" alt="Education Guide Generator 프로젝트 화면" onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
-            <div class="project-placeholder"><span>Education Guide Generator</span><small>education-guide-generator.png</small></div>
-          </a>
-          <div class="project-content">
-            <p class="project-index">Project 04</p>
-            <h3>Education Guide Generator</h3>
-            <p class="project-subtitle">교육 안내문 자동 생성 서비스</p>
-            <p class="project-description">교육 정보를 입력하면 브랜드 컬러가 적용된 HTML, PNG, JPG 안내문을 자동 생성합니다. 실시간 Preview 기능을 통해 결과물을 즉시 확인할 수 있습니다.</p>
-            <div class="tag-list"><span>Python</span><span>Streamlit</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="button-row compact">
-              <a class="button secondary" href="https://github.com/vixxbigs-dotcom/education-guide-generator" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="button primary" href="https://education-guide-generator-hqc7rk2uxappau4bettiix8.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
+      <article class="project-showcase reveal">
+        <a class="project-media" href="https://github.com/vixxbigs-dotcom/MUSINSA_WEB" target="_blank" rel="noreferrer"
+          aria-label="MUSINSA AI Recommendation 데모 보기">
+          <img src="./assets/images/musinsa-recommendation.png" alt="MUSINSA AI Recommendation 서비스 화면"
+            onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+          <div class="project-placeholder"><span>MUSINSA Recommendation</span><small>musinsa-recommendation.png</small>
+          </div>
+        </a>
+        <div class="project-content">
+          <p class="project-index">Project 02</p>
+          <h3>MUSINSA AI Recommendation</h3>
+          <p class="project-subtitle">AI 기반 패션 추천 시스템</p>
+          <p class="project-description">약 21만 건의 패션 데이터를 기반으로 개인화 추천 시스템을 개발했습니다. 사용자의 스타일 성향을 분석해 상품과 코디를 함께 추천하도록
+            설계했습니다. 현재는 실제 스타일링 데이터를 활용해 추천 품질을 고도화하고 있으며, 여성 추천 서비스까지 확장하고 있습니다.</p>
+          <dl class="metrics-grid">
+            <div>
+              <dt>21만+</dt>
+              <dd>상품 데이터</dd>
             </div>
+            <div>
+              <dt>3,000+</dt>
+              <dd>Snap 데이터</dd>
+            </div>
+            <div>
+              <dt>16개</dt>
+              <dd>패션 페르소나</dd>
+            </div>
+            <div>
+              <dt>Version 2</dt>
+              <dd>고도화 진행</dd>
+            </div>
+          </dl>
+          <div class="tag-list">
+            <span>Python</span><span>React</span><span>Flask</span><span>MySQL</span><span>SBERT</span><span>CLIP</span><span>Gemini
+              API</span>
           </div>
-        </article>
-      </section>
-
-      <section class="section about ai-bg-section" id="about" aria-labelledby="aboutTitle" data-bg="./assets/images/about-bg.gif">
-        <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
-        <div class="section-heading reveal">
-          <p class="eyebrow">About</p>
-          <h2 id="aboutTitle">About Me</h2>
-        </div>
-        <div class="about-grid reveal">
-          <div class="about-copy">
-            <p>컴퓨터공학을 전공했으며, 데이터 분석과 AI 자동화를 기반으로 고객 경험을 개선하는 서비스를 만드는 것을 좋아합니다.</p>
-            <p>단순히 데이터를 분석하는 것이 아니라, 왜 이런 결과가 발생했는지, 어떻게 개선할 수 있는지, 어떻게 자동화할 수 있는지까지 고민합니다.</p>
-            <p>패션 플랫폼과 이커머스 기업에서 CRM, 추천 시스템, 데이터 분석을 통해 더 나은 고객 경험을 만드는 것이 목표입니다.</p>
-          </div>
-          <div class="tag-list large"><span>Python</span><span>SQL</span><span>CRM</span><span>Recommendation</span><span>Automation</span><span>Growth</span><span>Personalization</span><span>GitHub</span></div>
-        </div>
-      </section>
-
-      <section class="section ai-bg-section" id="skills" aria-labelledby="skillsTitle" data-bg="./assets/images/skills-bg.gif">
-        <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
-        <div class="section-heading reveal">
-          <p class="eyebrow">Capability</p>
-          <h2 id="skillsTitle">Skills</h2>
-        </div>
-        <div class="skill-grid reveal">
-          <div class="skill-card"><h3>Programming</h3><div class="tag-list"><span>Python</span><span>SQL</span><span>JavaScript</span><span>React</span><span>HTML</span><span>CSS</span></div></div>
-          <div class="skill-card"><h3>Backend</h3><div class="tag-list"><span>Flask</span><span>GitHub Actions</span><span>Streamlit</span></div></div>
-          <div class="skill-card"><h3>Data</h3><div class="tag-list"><span>Pandas</span><span>NumPy</span><span>MySQL</span><span>Selenium</span><span>BeautifulSoup</span><span>Playwright</span></div></div>
-          <div class="skill-card"><h3>AI</h3><div class="tag-list"><span>OpenAI</span><span>Gemini</span><span>Cursor</span><span>Claude</span><span>Copilot</span><span>GenSpark</span><span>V0</span></div></div>
-          <div class="skill-card"><h3>Design</h3><div class="tag-list"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Premiere Pro</span><span>Procreate</span></div></div>
-        </div>
-      </section>
-
-      <section class="section ai-bg-section" id="experience" aria-labelledby="experienceTitle" data-bg="./assets/images/experience-bg.gif">
-        <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
-        <div class="section-heading reveal">
-          <p class="eyebrow">Career</p>
-          <h2 id="experienceTitle">Experience</h2>
-        </div>
-        <div class="timeline reveal">
-          <div class="timeline-year">2021</div>
-          <div class="timeline-card">
-            <p class="company">YouTube</p>
-            <h3>HRD 콘텐츠 기획 인턴</h3>
-            <ul>
-              <li>교육 기획</li><li>시장 조사</li><li>교육 데이터 분석</li><li>뉴스레터 제작</li><li>AI 자동화 개발</li><li>업무 자동화</li><li>프로젝트 카테고리 분류</li><li>보고서 제작</li>
-            </ul>
-          </div>
-          <div class="timeline-year">2026</div>
-          <div class="timeline-card">
-            <p class="company">멀티캠퍼스</p>
-            <h3>경영리더십콘텐츠그룹 인턴</h3>
-            <ul>
-              <li>교육 기획</li><li>시장 조사</li><li>교육 데이터 분석</li><li>뉴스레터 제작</li><li>AI 자동화 개발</li><li>업무 자동화</li><li>프로젝트 카테고리 분류</li><li>보고서 제작</li>
-            </ul>
+          <div class="button-row compact">
+            <a class="button secondary" href="https://github.com/vixxbigs-dotcom/MUSINSA_WEB" target="_blank"
+              rel="noreferrer">GitHub</a>
+            <a class="button primary" href="https://musinsaweb-d4f3qfughwu9rpfnxbpteg.streamlit.app/" target="_blank"
+              rel="noreferrer">Demo</a>
+            <a class="button secondary" href="https://app.notion.com/p/370c921fb1e180cc9001f92dcda471b5" target="_blank"
+              rel="noreferrer">Notion</a>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="section certificates" aria-labelledby="certificatesTitle">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Proof</p>
-          <h2 id="certificatesTitle">Certificates</h2>
+      <article class="project-showcase reveal">
+        <a class="project-media" href="https://newsletter-automation-knemxylqpewvmydxrzzfcl.streamlit.app/"
+          target="_blank" rel="noreferrer" aria-label="HRD Radar 관리자 페이지 보기">
+          <img src="./assets/images/hrd-radar.png" alt="HRD Radar 프로젝트 화면"
+            onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+          <div class="project-placeholder"><span>HRD Radar</span><small>hrd-radar.png</small></div>
+        </a>
+        <div class="project-content">
+          <p class="project-index">Project 03</p>
+          <h3>HRD Radar</h3>
+          <p class="project-subtitle">AI 뉴스레터 자동화 시스템</p>
+          <p class="project-description">뉴스 수집부터 AI 기사 선별, HTML 이메일 생성, GitHub Pages 배포까지 뉴스레터 제작 전 과정을 자동화했습니다. 운영자가 기사
+            검토부터 메일 발송까지 하나의 관리자 페이지에서 처리할 수 있도록 구현했습니다.</p>
+          <div class="tag-list"><span>Python</span><span>Streamlit</span><span>GitHub
+              Actions</span><span>OpenAI</span><span>HTML</span><span>CSS</span></div>
+          <div class="button-row compact">
+            <a class="button secondary" href="https://vixxbigs-dotcom.github.io/newsletter-automation/" target="_blank"
+              rel="noreferrer">GitHub Pages</a>
+            <a class="button primary" href="https://newsletter-automation-knemxylqpewvmydxrzzfcl.streamlit.app/"
+              target="_blank" rel="noreferrer">Admin</a>
+            <a class="button secondary" href="https://vixxbigs-dotcom.github.io/newsletter-automation/" target="_blank"
+              rel="noreferrer">News Site</a>
+          </div>
         </div>
-        <div class="certificate-grid reveal">
-          <div>SQLD</div><div>ADsP</div><div>정보처리기사</div><div>OPIC IH</div>
-        </div>
-      </section>
+      </article>
 
-      <section class="section contact ai-bg-section" id="contact" aria-labelledby="contactTitle" data-bg="./assets/images/contact-bg.gif">
-        <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
-        <div class="section-heading reveal">
-          <p class="eyebrow">Contact</p>
-          <h2 id="contactTitle">Let's Connect</h2>
-          <p>프로젝트와 직무 관련 연락은 아래 채널로 부탁드립니다.</p>
+      <article class="project-showcase reveal">
+        <a class="project-media" href="https://education-guide-generator-hqc7rk2uxappau4bettiix8.streamlit.app/"
+          target="_blank" rel="noreferrer" aria-label="Education Guide Generator 데모 보기">
+          <img src="./assets/images/education-guide-generator.png" alt="Education Guide Generator 프로젝트 화면"
+            onerror="this.style.display='none'; this.parentElement.classList.add('is-placeholder');" />
+          <div class="project-placeholder"><span>Education Guide
+              Generator</span><small>education-guide-generator.png</small></div>
+        </a>
+        <div class="project-content">
+          <p class="project-index">Project 04</p>
+          <h3>Education Guide Generator</h3>
+          <p class="project-subtitle">교육 안내문 자동 생성 서비스</p>
+          <p class="project-description">교육 정보를 입력하면 브랜드 컬러가 적용된 HTML, PNG, JPG 안내문을 자동 생성합니다. 실시간 Preview 기능을 통해 결과물을
+            즉시 확인할 수 있습니다.</p>
+          <div class="tag-list">
+            <span>Python</span><span>Streamlit</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="button-row compact">
+            <a class="button secondary" href="https://github.com/vixxbigs-dotcom/education-guide-generator"
+              target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button primary" href="https://education-guide-generator-hqc7rk2uxappau4bettiix8.streamlit.app/"
+              target="_blank" rel="noreferrer">Demo</a>
+          </div>
         </div>
-        <div class="contact-list reveal">
-          <a href="https://github.com/vixxbigs-dotcom?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="mailto:example@email.com">Email</a>
-          <a href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank" rel="noreferrer">YouTube</a>
-          <a href="#" aria-label="KakaoTalk 준비 중">KakaoTalk</a>
+      </article>
+    </section>
+
+    <section class="section about ai-bg-section" id="about" aria-labelledby="aboutTitle"
+      data-bg="./assets/images/about-bg.gif">
+      <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="aboutTitle">About Me</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-copy">
+          <p>패션 플랫폼을 오래 사용하며 "왜 어떤 상품은 클릭하고 어떤 추천은 지나칠까?" 라는 궁금증이 생겼습니다.</p>
+          <p>이 질문은 자연스럽게 데이터 분석과 추천 시스템에 대한 관심으로 이어졌습니다.</p>
+          <p>지금은 데이터를 분석하는 것을 넘어 AI를 활용해 반복 업무를 자동화하고</p>
+          <p>사용자가 더 쉽게 탐색할 수 있는 서비스를 만드는 데 관심을 가지고 있습니다.</p>
         </div>
-      </section>
-    </main>
+        <div class="tag-list large">
+          <span>Python</span><span>SQL</span><span>CRM</span><span>Recommendation</span><span>Automation</span><span>Growth</span><span>Personalization</span><span>GitHub</span>
+        </div>
+      </div>
+    </section>
 
-    <footer class="footer">
-      <p>© 2026 안가은. Built for GitHub Pages.</p>
-    </footer>
+    <section class="section ai-bg-section" id="skills" aria-labelledby="skillsTitle"
+      data-bg="./assets/images/skills-bg.gif">
+      <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Capability</p>
+        <h2 id="skillsTitle">Skills</h2>
+      </div>
+      <div class="skill-grid reveal">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <div class="tag-list">
+            <span>Python</span><span>SQL</span><span>JavaScript</span><span>React</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="tag-list"><span>Flask</span><span>GitHub Actions</span><span>Streamlit</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Data</h3>
+          <div class="tag-list">
+            <span>Pandas</span><span>NumPy</span><span>MySQL</span><span>Selenium</span><span>BeautifulSoup</span><span>Playwright</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>AI</h3>
+          <div class="tag-list">
+            <span>OpenAI</span><span>Gemini</span><span>Cursor</span><span>Claude</span><span>Copilot</span><span>GenSpark</span><span>V0</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Design</h3>
+          <div class="tag-list"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Premiere
+              Pro</span><span>Procreate</span></div>
+        </div>
+      </div>
+    </section>
 
-    <script src="./script.js"></script>
-  </body>
+    <section class="section ai-bg-section" id="experience" aria-labelledby="experienceTitle"
+      data-bg="./assets/images/experience-bg.gif">
+      <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Career</p>
+        <h2 id="experienceTitle">Experience</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-year">2021</div>
+        <div class="timeline-card">
+          <p class="company">YouTube</p>
+          <h3>DIY 유튜브 채널 BByoi Crafts 운영</h3>
+          <ul>
+            <li>Google Trends 기반 콘텐츠 기획</li>
+            <li>YouTube Analytics 데이터 분석</li>
+            <li>SEO 및 검색 키워드 최적화</li>
+            <li>썸네일 디자인 및 영상 편집</li>
+            <li>콘텐츠 반응 데이터 기반 A/B 개선</li>
+            <li>네이버 스마트스토어 연계 운영</li>
+          </ul>
+        </div>
+        <div class="timeline-year">2026</div>
+
+        <div class="timeline-card">
+          <p class="company">멀티캠퍼스</p>
+          <h3>경영리더십콘텐츠그룹 인턴</h3>
+          <ul>
+            <li>기업교육 과정 기획 및 시장 조사</li>
+            <li>크롤링 기반 강사 DB 5,000명 구축</li>
+            <li>Python 기반 반복 조사 업무 자동화</li>
+            <li>AI 활용 제안서 디자인 소스 제작</li>
+            <li>힐링 워크숍 영상·오디오 제작</li>
+            <li>HRD 뉴스레터 자동화 시스템 개발</li>
+            <li>교육 안내문 자동 생성 프로그램 개발</li>
+            <li>교육 프로젝트 분류 자동화 프로그램 개발</li>
+            <li>업종·대상·주제별 데이터 대시보드 제작</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certificates" aria-labelledby="certificatesTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Proof</p>
+        <h2 id="certificatesTitle">Certificates</h2>
+      </div>
+      <div class="certificate-grid reveal">
+        <div>SQLD</div>
+        <div>ADsP</div>
+        <div>정보처리기사</div>
+        <div>OPIC IH</div>
+      </div>
+    </section>
+
+    <section class="section contact ai-bg-section" id="contact" aria-labelledby="contactTitle"
+      data-bg="./assets/images/contact-bg.gif">
+      <div class="ai-bg-credit">AI-assisted visual content · © AHN KA EUN. All rights reserved.</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contactTitle">Let's Connect</h2>
+        <p>프로젝트와 직무 관련 연락은 아래 채널로 부탁드립니다.</p>
+      </div>
+      <div class="contact-list reveal">
+        <a href="https://github.com/vixxbigs-dotcom?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:example@email.com">Email</a>
+        <a href="https://www.youtube.com/@BByoiCrafts/posts" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="#" aria-label="KakaoTalk 준비 중">KakaoTalk</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 안가은. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>

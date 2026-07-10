@@ -1090,3 +1090,10 @@ img {
   background: rgba(255, 255, 255, 0.92);
   color: var(--muted);
 }
+.hero-question{
+    margin: 0;
+    font-size: clamp(52px, 5vw, 64px);
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+    font-weight: 760;
+}
